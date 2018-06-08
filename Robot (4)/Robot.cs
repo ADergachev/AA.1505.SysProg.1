@@ -104,7 +104,7 @@ namespace Robot
             return finalcoords;
         }
 
-        public RobotAction Tick(int robotId, RoundConfig config, GameState state)  // ЕБАНЫЙ ТИККК
+        public RobotAction Tick(int robotId, RoundConfig config, GameState state)
         {
             int MinDistance = 999999;
             coords PointCoords = new coords();
